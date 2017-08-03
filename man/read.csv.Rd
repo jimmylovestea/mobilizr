@@ -2,9 +2,12 @@
 % Please edit documentation in R/read_csv.R
 \name{read.csv}
 \alias{read.csv}
+\alias{read_csv}
 \title{Reads comma-seperated value data files into R.}
 \usage{
 read.csv(file, ...)
+
+read_csv(file, ...)
 }
 \arguments{
 \item{file}{the name of the file which the data are to be read from.
@@ -38,4 +41,3 @@ Reads comma-seperated value data files into R. This function is specially made t
 food <- read.csv("Food_Habits_Data.csv")
 }
 }
-

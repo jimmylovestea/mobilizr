@@ -3,8 +3,8 @@
 \docType{data}
 \name{atu_dirty}
 \alias{atu_dirty}
-\title{American Time Use Survey Sample - Dirty}
-\format{A data frame with 12,443 observations of 8 variables}
+\title{American Time Use Survey Data Sample - Dirty}
+\format{A data frame with 10,493 observations of 8 variables}
 \source{
 \url{http://www.bls.gov/tus/}
 }
@@ -30,4 +30,3 @@ V7. the number of minutes the respondent spent socializing }
 \link{atu_clean}
 }
 \keyword{dataset}
-
