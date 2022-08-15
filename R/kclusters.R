@@ -25,10 +25,11 @@
 
 
 # A simple kmeans function to use
-kclusters_simple <- function(x, k, ...) {
+kclusters_simple <- function(x, y, k, ...) {
   # Suppress warnings for this implementation
-  suppressWarnings(kmeans(x = x, centers = k, ...)$cluster)
+  suppressWarnings(kmeans(x = cbind(x, y), centers = k, ...)$cluster)
 }
+
 
 #' @export
 kclusters <- mosaic::aggregatingFunction2(kclusters_simple)
